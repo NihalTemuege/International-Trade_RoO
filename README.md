@@ -4,7 +4,8 @@
 3) Table6.R
 4) Table7&Table4.R
 5) Extension
-   ********************************************
+
+
  1) 	Int_Trade_log_data.R file contains log function at the beginning ( its input can be seen in the screenshot ) and then data construction process by using raw datasets: DTA_Mexico19912003-WTO-countries.dta, MFN_MEX.dta, DTA_pref_2004_Mexico_as_importerHS1992.dta, DTA_Mexico19912003-WTO-countries.dta provided by the authors.
 		At the end of the codes, "DTA-tradeflows-tariffs-withNAFTA.dta" dataset is created. 
 
