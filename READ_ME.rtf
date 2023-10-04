@@ -1,0 +1,48 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 TimesNewRomanPS-BoldItalicMT;\f1\froman\fcharset0 TimesNewRomanPSMT;\f2\froman\fcharset0 TimesNewRomanPS-BoldMT;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\})}{\leveltext\leveltemplateid1\'02\'00);}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl360\slmult1\pardirnatural\partightenfactor0
+
+\f0\i\b\fs24 \cf0 This folder consists of following R files:\
+
+\f1\i0\b0 \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\sl360\slmult1\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	1)	}Int_Trade_log_data.R\
+{\listtext	2)	}Table5.R\
+\ls1\ilvl0
+\f2\b {\listtext	3)	}
+\f1\b0 Table6.R\
+{\listtext	4)	}Table7&Table4.R\
+{\listtext	
+\f2\b 5)
+\f1\b0 	}Extension\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\sl360\slmult1\pardirnatural\partightenfactor0
+\cf0 ********************************************\
+\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\sl360\slmult1\pardirnatural\partightenfactor0
+
+\f2\b \cf0 1) 
+\f1\b0 	Int_Trade_log_data.R file contains log function at the beginning ( its input can be seen in the screenshot ) and then data construction process by using raw datasets: DTA_Mexico19912003-WTO-countries.dta, MFN_MEX.dta, DTA_pref_2004_Mexico_as_importerHS1992.dta, DTA_Mexico19912003-WTO-countries.dta provided by the authors.\
+		At the end of the codes, "DTA-tradeflows-tariffs-withNAFTA.dta" dataset is created. \
+\
+	
+\f2\b 2)
+\f1\b0 	Table5.R file is to replicate Table5 by using raw datasets DTA-allrules-placebo.dta, DTA-allrules-DRdummy-placebo.dta provided by the authors and dataset DTA-tradeflows-tariffs-withNAFTA.dta that is created in Int_Trade_log_data.R file. \
+\
+
+\f2\b 	3)	
+\f1\b0 Table6.R file is to replicate Table6 by using raw datasets DTA-allrules.dta, DTA-allrules-DRdummy.dta provided by the authors and dataset DTA-tradeflows-tariffs-withNAFTA.dta that is created in Int_Trade_log_data.R file. \
+\
+
+\f2\b  4)
+\f1\b0 	 Table7&Table4.R file is to replicate Table5 by using dataset DTA-tradeflows-tariffs-withNAFTA.dta that is created in Int_Trade_log_data.R file. \
+\
+
+\f2\b 5)
+\f1\b0 	        Extension file for additional robustness check tables. Here, distance data is imported (dist_cepii.dta) from http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=6 and country codes data from "https://public.opendatasoft.com/explore/dataset/countries-codes/export/" is imported. And they are combined with datasets created in previous files. \
+}
