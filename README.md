@@ -15,4 +15,3 @@
  4)	 Table7&Table4.R file is to replicate Table5 by using dataset DTA-tradeflows-tariffs-withNAFTA.dta that is created in Int_Trade_log_data.R file. 
 
  5)	Extension file for additional robustness check tables. Here, distance data is imported (dist_cepii.dta) from http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=6 and country codes data from "https://public.opendatasoft.com/explore/dataset/countries-codes/export/" is imported. And they are combined with datasets created in previous files. 
-![image](https://github.com/NihalTemuege/International-Trade_RoO/assets/94055274/b956fdc7-dd5c-43ae-b23d-e9456c49947d)
